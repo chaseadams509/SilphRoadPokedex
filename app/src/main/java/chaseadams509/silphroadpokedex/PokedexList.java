@@ -6,44 +6,31 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.animation.Interpolator;
-import android.widget.Button;
+import android.view.View;
+import android.widget.TextView;
 
-public class SilphRoadPokedex extends AppCompatActivity {
-    private Button pokedexlist;
-    private Button ivlist;
+import org.w3c.dom.Text;
+
+public class PokedexList extends AppCompatActivity {
+    private boolean iv_calc;
+    private TextView pokedextext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_silph_road_pokedex);
+        setContentView(R.layout.activity_pokedex_list);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        final Intent get_intent = getIntent();
+        iv_calc = get_intent.getBooleanExtra("iv_calc", false);
 
-        pokedexlist = (Button)this.findViewById(R.id.Pokedex);
-        pokedexlist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                open_pokedex_list(v, false);
-            }
-        });
-
-        ivlist = (Button)this.findViewById(R.id.IVCalc);
-        ivlist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                open_pokedex_list(v, true);
-            }
-        });
-    }
-
-    public void open_pokedex_list(View view, boolean iv_calc) {
-        Intent intent = new Intent(SilphRoadPokedex.this, PokedexList.class);
-        intent.putExtra("iv_calc", iv_calc);
-        startActivity(intent);
+        pokedextext = (TextView)this.findViewById(R.id.PokedexText);
+        if(iv_calc)
+            pokedextext.append(": value is true.");
+        else
+            pokedextext.append(": value is false.");
     }
 
     @Override
@@ -67,4 +54,5 @@ public class SilphRoadPokedex extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

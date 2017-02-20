@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_silph_road_pokedex"
@@ -9,6 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="1.0"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="chaseadams509.silphroadpokedex.SilphRoadPokedex"
     tools:showIn="@layout/activity_silph_road_pokedex">
@@ -16,5 +18,48 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_gravity="center"
+        android:layout_weight=".2"
+        android:text="Silph Road Pokedex" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1.0"
+        android:layout_weight=".4">
+        <Button
+            android:id="@+id/Pokedex"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Pokedex"/>
+        <Button
+            android:id="@+id/NestMap"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Nest Map"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1.0"
+        android:layout_weight=".1"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/IVCalc"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="IV Calculator"/>
+        <Button
+            android:id="@+id/NestFilter"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Nest Filters"/>
+    </LinearLayout>
+</LinearLayout>
