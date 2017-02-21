@@ -75,7 +75,7 @@ public class PokedexList extends AppCompatActivity {
         }
 
 
-        for(int i = 0; i <= pokemon_list.getLength(); i++) {
+        for(int i = 0; i < pokemon_list.getLength(); i++) {
             Button pokeButton = new Button(this);
             Element pokemon = (Element)pokemon_list.item(i);
             String pokemon_name;
@@ -89,6 +89,13 @@ public class PokedexList extends AppCompatActivity {
             }
             pokeButton.setText(pokemon_num + ": " + pokemon_name);
             pokeButton.setId(i);
+            final int num = i+1;
+            pokeButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    open_entry(v, num);
+                }
+            });
 
             LinearLayout ll = (LinearLayout) findViewById(R.id.pokelist);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
@@ -109,6 +116,12 @@ public class PokedexList extends AppCompatActivity {
         String query = "@id";
         String num = "#" + xPath.evaluate(query, pokemon);
         return num;
+    }
+    public void open_entry(View view, int id) {
+        Intent intent = new Intent(PokedexList.this, PokedexEntry.class);
+        intent.putExtra("id", id);
+        intent.putExtra("iv_calc", iv_calc);
+        startActivity(intent);
     }
 
     @Override
