@@ -12,6 +12,19 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
+
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+
+import java.io.InputStream;
+
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathFactory;
+
 public class PokedexEntry extends AppCompatActivity {
     private ImageView pokemonGif;
     private TextView pokemonName;
@@ -43,10 +56,32 @@ public class PokedexEntry extends AppCompatActivity {
         defenseStat = (TextView)this.findViewById(R.id.dex_def);
         staminaStat = (TextView)this.findViewById(R.id.dex_sta);
 
-        pokemonName.setText("#" + id + ": POKEMON");
-        attackStat.setText("ATK: 0");
-        defenseStat.setText("DEF: 0");
-        staminaStat.setText("STA: 0");
+        InputStream pdata = getResources().openRawResource(R.raw.pokemon_data);
+        InputSource psrc = new InputSource(pdata);
+        XPathFactory factory = XPathFactory.newInstance();
+        XPath xPath = factory.newXPath();
+        NodeList pokemon_list;
+        try {
+            String query = "/PokemonGo/Pokemon[@id=" + id + "]";
+            pokemon_list = (NodeList) xPath.evaluate(query, psrc, XPathConstants.NODESET);
+            Element entry = (Element)pokemon_list.item(0);
+
+            pokemonName.setText("#" + id + ": " + getPokemonAttribute(xPath, entry, "@name"));
+            attackStat.setText("ATK: " + getPokemonAttribute(xPath, entry, "Stats/@attack"));
+            defenseStat.setText("DEF: " + getPokemonAttribute(xPath, entry, "Stats/@defense"));
+            staminaStat.setText("STA: " + getPokemonAttribute(xPath, entry, "Stats/@stamina"));
+        } catch (Exception e) {
+
+            pokemonName.setText("#" + id + ": NOT FOUND");
+            attackStat.setText("ATK: 0");
+            defenseStat.setText("DEF: 0");
+            staminaStat.setText("STA: 0");
+        }
+    }
+
+    public String getPokemonAttribute(XPath xPath, Element pokemon, String query) throws Exception {
+        String attrib = xPath.evaluate(query, pokemon);
+        return attrib;
     }
 
     @Override
