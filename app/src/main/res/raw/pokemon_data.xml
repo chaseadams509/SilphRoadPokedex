@@ -1,0 +1,1257 @@
+<PokemonGo>
+    <Pokemon name="BULBASAUR" id="1" type1="12" type2="4">
+        <Stats attack="118" defense="118" stamina="90"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="1" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="IVYSAUR" id="2" type1="12" type2="4">
+        <Stats attack="151" defense="151" stamina="120"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="1" parent_id="1" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VENUSAUR" id="3" type1="12" type2="4">
+        <Stats attack="198" defense="198" stamina="160"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="1" parent_id="2" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CHARMANDER" id="4" type1="10" type2="-1">
+        <Stats attack="116" defense="96" stamina="78"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="4" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CHARMELEON" id="5" type1="10" type2="-1">
+        <Stats attack="158" defense="129" stamina="116"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="4" parent_id="4" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CHARIZARD" id="6" type1="10" type2="3">
+        <Stats attack="223" defense="176" stamina="156"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="4" parent_id="5" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SQUIRTLE" id="7" type1="11" type2="-1">
+        <Stats attack="94" defense="122" stamina="88"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="7" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WARTORTLE" id="8" type1="11" type2="-1">
+        <Stats attack="126" defense="155" stamina="118"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="7" parent_id="7" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BLASTOISE" id="9" type1="11" type2="-1">
+        <Stats attack="171" defense="210" stamina="158"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="7" parent_id="8" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CATERPIE" id="10" type1="7" type2="-1">
+        <Stats attack="55" defense="62" stamina="90"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="10" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="METAPOD" id="11" type1="7" type2="-1">
+        <Stats attack="45" defense="94" stamina="100"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.09000000357627869" capture_candy="5"></Meta>
+        <Evolution family_id="10" parent_id="10" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BUTTERFREE" id="12" type1="7" type2="3">
+        <Stats attack="167" defense="151" stamina="120"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05999999865889549" capture_candy="10"></Meta>
+        <Evolution family_id="10" parent_id="11" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WEEDLE" id="13" type1="7" type2="4">
+        <Stats attack="63" defense="55" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="13" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KAKUNA" id="14" type1="7" type2="4">
+        <Stats attack="46" defense="86" stamina="90"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.09000000357627869" capture_candy="5"></Meta>
+        <Evolution family_id="13" parent_id="13" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BEEDRILL" id="15" type1="7" type2="4">
+        <Stats attack="169" defense="150" stamina="130"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05999999865889549" capture_candy="10"></Meta>
+        <Evolution family_id="13" parent_id="14" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PIDGEY" id="16" type1="1" type2="3">
+        <Stats attack="85" defense="76" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="16" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PIDGEOTTO" id="17" type1="1" type2="3">
+        <Stats attack="117" defense="108" stamina="126"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.09000000357627869" capture_candy="5"></Meta>
+        <Evolution family_id="16" parent_id="16" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PIDGEOT" id="18" type1="1" type2="3">
+        <Stats attack="166" defense="157" stamina="166"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05999999865889549" capture_candy="10"></Meta>
+        <Evolution family_id="16" parent_id="17" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RATTATA" id="19" type1="1" type2="-1">
+        <Stats attack="103" defense="70" stamina="60"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="19" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RATICATE" id="20" type1="1" type2="-1">
+        <Stats attack="161" defense="144" stamina="110"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="19" parent_id="19" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SPEAROW" id="21" type1="1" type2="3">
+        <Stats attack="112" defense="61" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="21" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FEAROW" id="22" type1="1" type2="3">
+        <Stats attack="182" defense="135" stamina="130"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="21" parent_id="21" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="EKANS" id="23" type1="4" type2="-1">
+        <Stats attack="110" defense="102" stamina="70"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="23" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ARBOK" id="24" type1="4" type2="-1">
+        <Stats attack="167" defense="158" stamina="120"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="23" parent_id="23" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PIKACHU" id="25" type1="13" type2="-1">
+        <Stats attack="112" defense="101" stamina="70"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="25" parent_id="172" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RAICHU" id="26" type1="13" type2="-1">
+        <Stats attack="193" defense="165" stamina="120"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="25" parent_id="25" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SANDSHREW" id="27" type1="5" type2="-1">
+        <Stats attack="126" defense="145" stamina="100"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="27" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SANDSLASH" id="28" type1="5" type2="-1">
+        <Stats attack="182" defense="202" stamina="150"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="27" parent_id="27" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NIDORAN" id="29" type1="4" type2="-1">
+        <Stats attack="86" defense="94" stamina="110"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="29" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NIDORINA" id="30" type1="4" type2="-1">
+        <Stats attack="117" defense="126" stamina="140"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="29" parent_id="29" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NIDOQUEEN" id="31" type1="4" type2="5">
+        <Stats attack="180" defense="174" stamina="180"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="29" parent_id="30" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NIDORAN" id="32" type1="4" type2="-1">
+        <Stats attack="105" defense="76" stamina="92"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="32" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NIDORINO" id="33" type1="4" type2="-1">
+        <Stats attack="137" defense="112" stamina="122"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="32" parent_id="32" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NIDOKING" id="34" type1="4" type2="5">
+        <Stats attack="204" defense="157" stamina="162"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="32" parent_id="33" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CLEFAIRY" id="35" type1="18" type2="-1">
+        <Stats attack="107" defense="116" stamina="140"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="35" parent_id="173" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CLEFABLE" id="36" type1="18" type2="-1">
+        <Stats attack="178" defense="171" stamina="190"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="35" parent_id="35" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VULPIX" id="37" type1="10" type2="-1">
+        <Stats attack="96" defense="122" stamina="76"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="37" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NINETALES" id="38" type1="10" type2="-1">
+        <Stats attack="169" defense="204" stamina="146"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="37" parent_id="37" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="JIGGLYPUFF" id="39" type1="1" type2="18">
+        <Stats attack="80" defense="44" stamina="230"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="39" parent_id="174" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WIGGLYTUFF" id="40" type1="1" type2="18">
+        <Stats attack="156" defense="93" stamina="280"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="39" parent_id="39" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ZUBAT" id="41" type1="4" type2="3">
+        <Stats attack="83" defense="76" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="41" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GOLBAT" id="42" type1="4" type2="3">
+        <Stats attack="161" defense="153" stamina="150"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="41" parent_id="41" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ODDISH" id="43" type1="12" type2="4">
+        <Stats attack="131" defense="116" stamina="90"></Stats>
+        <Meta capture_rate="0.6000000238418579" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="43" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GLOOM" id="44" type1="12" type2="4">
+        <Stats attack="153" defense="139" stamina="120"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="43" parent_id="43" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VILEPLUME" id="45" type1="12" type2="4">
+        <Stats attack="202" defense="170" stamina="150"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="43" parent_id="44" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PARAS" id="46" type1="7" type2="12">
+        <Stats attack="121" defense="99" stamina="70"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="46" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PARASECT" id="47" type1="7" type2="12">
+        <Stats attack="165" defense="146" stamina="120"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="46" parent_id="46" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VENONAT" id="48" type1="7" type2="4">
+        <Stats attack="100" defense="102" stamina="120"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="48" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VENOMOTH" id="49" type1="7" type2="4">
+        <Stats attack="179" defense="150" stamina="140"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="48" parent_id="48" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DIGLETT" id="50" type1="5" type2="-1">
+        <Stats attack="109" defense="88" stamina="20"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="50" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DUGTRIO" id="51" type1="5" type2="-1">
+        <Stats attack="167" defense="147" stamina="70"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="50" parent_id="50" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MEOWTH" id="52" type1="1" type2="-1">
+        <Stats attack="92" defense="81" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="52" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PERSIAN" id="53" type1="1" type2="-1">
+        <Stats attack="150" defense="139" stamina="130"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="52" parent_id="52" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PSYDUCK" id="54" type1="11" type2="-1">
+        <Stats attack="122" defense="96" stamina="100"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="54" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GOLDUCK" id="55" type1="11" type2="-1">
+        <Stats attack="191" defense="163" stamina="160"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="54" parent_id="54" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MANKEY" id="56" type1="2" type2="-1">
+        <Stats attack="148" defense="87" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="56" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PRIMEAPE" id="57" type1="2" type2="-1">
+        <Stats attack="207" defense="144" stamina="130"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="56" parent_id="56" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GROWLITHE" id="58" type1="10" type2="-1">
+        <Stats attack="136" defense="96" stamina="110"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="58" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ARCANINE" id="59" type1="10" type2="-1">
+        <Stats attack="227" defense="166" stamina="180"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="58" parent_id="58" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="POLIWAG" id="60" type1="11" type2="-1">
+        <Stats attack="101" defense="82" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="60" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="POLIWHIRL" id="61" type1="11" type2="-1">
+        <Stats attack="130" defense="130" stamina="130"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="60" parent_id="60" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="POLIWRATH" id="62" type1="11" type2="2">
+        <Stats attack="182" defense="187" stamina="180"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="60" parent_id="61" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ABRA" id="63" type1="14" type2="-1">
+        <Stats attack="195" defense="103" stamina="50"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.9900000095367432" capture_candy="3"></Meta>
+        <Evolution family_id="63" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KADABRA" id="64" type1="14" type2="-1">
+        <Stats attack="232" defense="138" stamina="80"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="63" parent_id="63" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ALAKAZAM" id="65" type1="14" type2="-1">
+        <Stats attack="271" defense="194" stamina="110"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="63" parent_id="64" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MACHOP" id="66" type1="2" type2="-1">
+        <Stats attack="137" defense="88" stamina="140"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="66" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MACHOKE" id="67" type1="2" type2="-1">
+        <Stats attack="177" defense="130" stamina="160"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="66" parent_id="66" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MACHAMP" id="68" type1="2" type2="-1">
+        <Stats attack="234" defense="162" stamina="180"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="66" parent_id="67" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BELLSPROUT" id="69" type1="12" type2="4">
+        <Stats attack="139" defense="64" stamina="100"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="69" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WEEPINBELL" id="70" type1="12" type2="4">
+        <Stats attack="172" defense="95" stamina="130"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="69" parent_id="69" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VICTREEBEL" id="71" type1="12" type2="4">
+        <Stats attack="207" defense="138" stamina="160"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="69" parent_id="70" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TENTACOOL" id="72" type1="11" type2="4">
+        <Stats attack="97" defense="182" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="72" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TENTACRUEL" id="73" type1="11" type2="4">
+        <Stats attack="166" defense="237" stamina="160"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="72" parent_id="72" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GEODUDE" id="74" type1="6" type2="5">
+        <Stats attack="132" defense="163" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="74" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GRAVELER" id="75" type1="6" type2="5">
+        <Stats attack="164" defense="196" stamina="110"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="74" parent_id="74" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GOLEM" id="76" type1="6" type2="5">
+        <Stats attack="211" defense="229" stamina="160"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="74" parent_id="75" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PONYTA" id="77" type1="10" type2="-1">
+        <Stats attack="170" defense="132" stamina="100"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="77" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RAPIDASH" id="78" type1="10" type2="-1">
+        <Stats attack="207" defense="167" stamina="130"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="77" parent_id="77" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SLOWPOKE" id="79" type1="11" type2="14">
+        <Stats attack="109" defense="109" stamina="180"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="79" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SLOWBRO" id="80" type1="11" type2="14">
+        <Stats attack="177" defense="194" stamina="190"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="79" parent_id="79" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAGNEMITE" id="81" type1="13" type2="9">
+        <Stats attack="165" defense="128" stamina="50"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="81" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAGNETON" id="82" type1="13" type2="9">
+        <Stats attack="223" defense="182" stamina="100"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="81" parent_id="81" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FARFETCHD" id="83" type1="1" type2="3">
+        <Stats attack="124" defense="118" stamina="104"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="83" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DODUO" id="84" type1="1" type2="3">
+        <Stats attack="158" defense="88" stamina="70"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="84" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DODRIO" id="85" type1="1" type2="3">
+        <Stats attack="218" defense="145" stamina="120"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="84" parent_id="84" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SEEL" id="86" type1="11" type2="-1">
+        <Stats attack="85" defense="128" stamina="130"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="86" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DEWGONG" id="87" type1="11" type2="15">
+        <Stats attack="139" defense="184" stamina="180"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="86" parent_id="86" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GRIMER" id="88" type1="4" type2="-1">
+        <Stats attack="135" defense="90" stamina="160"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="88" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MUK" id="89" type1="4" type2="-1">
+        <Stats attack="190" defense="184" stamina="210"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="88" parent_id="88" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SHELLDER" id="90" type1="11" type2="-1">
+        <Stats attack="116" defense="168" stamina="60"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="90" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CLOYSTER" id="91" type1="11" type2="15">
+        <Stats attack="186" defense="323" stamina="100"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="90" parent_id="90" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GASTLY" id="92" type1="8" type2="4">
+        <Stats attack="186" defense="70" stamina="60"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="92" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HAUNTER" id="93" type1="8" type2="4">
+        <Stats attack="223" defense="112" stamina="90"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="92" parent_id="92" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GENGAR" id="94" type1="8" type2="4">
+        <Stats attack="261" defense="156" stamina="120"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="92" parent_id="93" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ONIX" id="95" type1="6" type2="5">
+        <Stats attack="85" defense="288" stamina="70"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="95" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DROWZEE" id="96" type1="14" type2="-1">
+        <Stats attack="89" defense="158" stamina="120"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="96" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HYPNO" id="97" type1="14" type2="-1">
+        <Stats attack="144" defense="215" stamina="170"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="96" parent_id="96" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KRABBY" id="98" type1="11" type2="-1">
+        <Stats attack="181" defense="156" stamina="60"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="98" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KINGLER" id="99" type1="11" type2="-1">
+        <Stats attack="240" defense="214" stamina="110"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="98" parent_id="98" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VOLTORB" id="100" type1="13" type2="-1">
+        <Stats attack="109" defense="114" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="100" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ELECTRODE" id="101" type1="13" type2="-1">
+        <Stats attack="173" defense="179" stamina="120"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="100" parent_id="100" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="EXEGGCUTE" id="102" type1="12" type2="14">
+        <Stats attack="107" defense="140" stamina="120"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="102" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="EXEGGUTOR" id="103" type1="12" type2="14">
+        <Stats attack="233" defense="158" stamina="190"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="102" parent_id="102" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CUBONE" id="104" type1="5" type2="-1">
+        <Stats attack="90" defense="165" stamina="100"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="104" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAROWAK" id="105" type1="5" type2="-1">
+        <Stats attack="144" defense="200" stamina="120"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="104" parent_id="104" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HITMONLEE" id="106" type1="2" type2="-1">
+        <Stats attack="224" defense="211" stamina="100"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="236" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HITMONCHAN" id="107" type1="2" type2="-1">
+        <Stats attack="193" defense="212" stamina="100"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="236" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LICKITUNG" id="108" type1="1" type2="-1">
+        <Stats attack="108" defense="137" stamina="180"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="108" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KOFFING" id="109" type1="4" type2="-1">
+        <Stats attack="119" defense="164" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="109" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WEEZING" id="110" type1="4" type2="-1">
+        <Stats attack="174" defense="221" stamina="130"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="109" parent_id="109" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RHYHORN" id="111" type1="5" type2="6">
+        <Stats attack="140" defense="157" stamina="160"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="111" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RHYDON" id="112" type1="5" type2="6">
+        <Stats attack="222" defense="206" stamina="210"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="111" parent_id="111" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CHANSEY" id="113" type1="1" type2="-1">
+        <Stats attack="60" defense="176" stamina="500"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="113" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TANGELA" id="114" type1="12" type2="-1">
+        <Stats attack="183" defense="205" stamina="130"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="114" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KANGASKHAN" id="115" type1="1" type2="-1">
+        <Stats attack="181" defense="165" stamina="210"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="115" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HORSEA" id="116" type1="11" type2="-1">
+        <Stats attack="129" defense="125" stamina="60"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="116" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SEADRA" id="117" type1="11" type2="-1">
+        <Stats attack="187" defense="182" stamina="110"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="116" parent_id="116" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GOLDEEN" id="118" type1="11" type2="-1">
+        <Stats attack="123" defense="115" stamina="90"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="118" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SEAKING" id="119" type1="11" type2="-1">
+        <Stats attack="175" defense="154" stamina="160"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="118" parent_id="118" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="STARYU" id="120" type1="11" type2="-1">
+        <Stats attack="137" defense="112" stamina="60"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="120" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="STARMIE" id="121" type1="11" type2="14">
+        <Stats attack="210" defense="184" stamina="120"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="120" parent_id="120" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MR" id="122" type1="14" type2="18">
+        <Stats attack="192" defense="233" stamina="80"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="122" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SCYTHER" id="123" type1="7" type2="3">
+        <Stats attack="218" defense="170" stamina="140"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="123" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="JYNX" id="124" type1="15" type2="14">
+        <Stats attack="223" defense="182" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="124" parent_id="238" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ELECTABUZZ" id="125" type1="13" type2="-1">
+        <Stats attack="198" defense="173" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="125" parent_id="239" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAGMAR" id="126" type1="10" type2="-1">
+        <Stats attack="206" defense="169" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="126" parent_id="240" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PINSIR" id="127" type1="7" type2="-1">
+        <Stats attack="238" defense="197" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="127" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TAUROS" id="128" type1="1" type2="-1">
+        <Stats attack="198" defense="197" stamina="150"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="128" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAGIKARP" id="129" type1="11" type2="-1">
+        <Stats attack="29" defense="102" stamina="40"></Stats>
+        <Meta capture_rate="0.699999988079071" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="129" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GYARADOS" id="130" type1="11" type2="3">
+        <Stats attack="237" defense="197" stamina="190"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="129" parent_id="129" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LAPRAS" id="131" type1="11" type2="15">
+        <Stats attack="165" defense="180" stamina="260"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="131" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DITTO" id="132" type1="1" type2="-1">
+        <Stats attack="91" defense="91" stamina="96"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="132" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="EEVEE" id="133" type1="1" type2="-1">
+        <Stats attack="104" defense="121" stamina="110"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="133" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="VAPOREON" id="134" type1="11" type2="-1">
+        <Stats attack="205" defense="177" stamina="260"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="133" parent_id="133" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="JOLTEON" id="135" type1="13" type2="-1">
+        <Stats attack="232" defense="201" stamina="130"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="133" parent_id="133" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FLAREON" id="136" type1="10" type2="-1">
+        <Stats attack="246" defense="204" stamina="130"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="133" parent_id="133" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PORYGON" id="137" type1="1" type2="-1">
+        <Stats attack="153" defense="139" stamina="130"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="137" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="OMANYTE" id="138" type1="6" type2="11">
+        <Stats attack="155" defense="174" stamina="70"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="138" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="OMASTAR" id="139" type1="6" type2="11">
+        <Stats attack="207" defense="227" stamina="140"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="138" parent_id="138" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KABUTO" id="140" type1="6" type2="11">
+        <Stats attack="148" defense="162" stamina="60"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="140" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KABUTOPS" id="141" type1="6" type2="11">
+        <Stats attack="220" defense="203" stamina="120"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="140" parent_id="140" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="AERODACTYL" id="142" type1="6" type2="3">
+        <Stats attack="221" defense="164" stamina="160"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="142" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SNORLAX" id="143" type1="1" type2="-1">
+        <Stats attack="190" defense="190" stamina="320"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="143" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ARTICUNO" id="144" type1="15" type2="3">
+        <Stats attack="192" defense="249" stamina="180"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="144" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ZAPDOS" id="145" type1="13" type2="3">
+        <Stats attack="253" defense="188" stamina="180"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="145" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MOLTRES" id="146" type1="10" type2="3">
+        <Stats attack="251" defense="184" stamina="180"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="146" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DRATINI" id="147" type1="16" type2="-1">
+        <Stats attack="119" defense="94" stamina="82"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="147" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DRAGONAIR" id="148" type1="16" type2="-1">
+        <Stats attack="163" defense="138" stamina="122"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="147" parent_id="147" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DRAGONITE" id="149" type1="16" type2="3">
+        <Stats attack="263" defense="201" stamina="182"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="147" parent_id="148" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MEWTWO" id="150" type1="14" type2="-1">
+        <Stats attack="330" defense="200" stamina="212"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="150" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MEW" id="151" type1="14" type2="-1">
+        <Stats attack="210" defense="210" stamina="200"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="151" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CHIKORITA" id="152" type1="12" type2="-1">
+        <Stats attack="92" defense="122" stamina="90"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="152" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BAYLEEF" id="153" type1="12" type2="-1">
+        <Stats attack="122" defense="155" stamina="120"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="152" parent_id="152" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MEGANIUM" id="154" type1="12" type2="-1">
+        <Stats attack="168" defense="202" stamina="160"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="152" parent_id="153" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CYNDAQUIL" id="155" type1="10" type2="-1">
+        <Stats attack="116" defense="96" stamina="78"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="155" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="QUILAVA" id="156" type1="10" type2="-1">
+        <Stats attack="158" defense="129" stamina="116"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="155" parent_id="155" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TYPHLOSION" id="157" type1="10" type2="-1">
+        <Stats attack="223" defense="176" stamina="156"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="155" parent_id="156" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TOTODILE" id="158" type1="11" type2="-1">
+        <Stats attack="117" defense="116" stamina="100"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="158" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CROCONAW" id="159" type1="11" type2="-1">
+        <Stats attack="150" defense="151" stamina="130"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="158" parent_id="158" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FERALIGATR" id="160" type1="11" type2="-1">
+        <Stats attack="205" defense="197" stamina="170"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="158" parent_id="159" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SENTRET" id="161" type1="1" type2="-1">
+        <Stats attack="79" defense="77" stamina="70"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="161" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FURRET" id="162" type1="1" type2="-1">
+        <Stats attack="148" defense="130" stamina="170"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="161" parent_id="161" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HOOTHOOT" id="163" type1="1" type2="3">
+        <Stats attack="67" defense="101" stamina="120"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="163" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NOCTOWL" id="164" type1="1" type2="3">
+        <Stats attack="145" defense="179" stamina="200"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="163" parent_id="163" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LEDYBA" id="165" type1="7" type2="3">
+        <Stats attack="72" defense="142" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="165" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LEDIAN" id="166" type1="7" type2="3">
+        <Stats attack="107" defense="209" stamina="110"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="165" parent_id="165" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SPINARAK" id="167" type1="7" type2="4">
+        <Stats attack="105" defense="73" stamina="80"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="167" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ARIADOS" id="168" type1="7" type2="4">
+        <Stats attack="161" defense="128" stamina="140"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="167" parent_id="167" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CROBAT" id="169" type1="4" type2="3">
+        <Stats attack="194" defense="178" stamina="170"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="41" parent_id="42" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CHINCHOU" id="170" type1="11" type2="13">
+        <Stats attack="106" defense="106" stamina="150"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="170" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LANTURN" id="171" type1="11" type2="13">
+        <Stats attack="146" defense="146" stamina="250"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="170" parent_id="170" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PICHU" id="172" type1="13" type2="-1">
+        <Stats attack="77" defense="63" stamina="40"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="3"></Meta>
+        <Evolution family_id="25" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CLEFFA" id="173" type1="18" type2="-1">
+        <Stats attack="75" defense="91" stamina="100"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="3"></Meta>
+        <Evolution family_id="35" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="IGGLYBUFF" id="174" type1="1" type2="18">
+        <Stats attack="69" defense="34" stamina="180"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="3"></Meta>
+        <Evolution family_id="39" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TOGEPI" id="175" type1="18" type2="-1">
+        <Stats attack="67" defense="116" stamina="70"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="3"></Meta>
+        <Evolution family_id="175" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TOGETIC" id="176" type1="18" type2="3">
+        <Stats attack="139" defense="191" stamina="110"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="175" parent_id="175" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="NATU" id="177" type1="14" type2="3">
+        <Stats attack="134" defense="89" stamina="80"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.15000000596046448" capture_candy="3"></Meta>
+        <Evolution family_id="177" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="XATU" id="178" type1="14" type2="3">
+        <Stats attack="192" defense="146" stamina="130"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="177" parent_id="177" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAREEP" id="179" type1="13" type2="-1">
+        <Stats attack="114" defense="82" stamina="110"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="179" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FLAAFFY" id="180" type1="13" type2="-1">
+        <Stats attack="145" defense="112" stamina="140"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="179" parent_id="179" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="AMPHAROS" id="181" type1="13" type2="-1">
+        <Stats attack="211" defense="172" stamina="180"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="179" parent_id="180" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BELLOSSOM" id="182" type1="12" type2="-1">
+        <Stats attack="169" defense="189" stamina="150"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="43" parent_id="44" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MARILL" id="183" type1="11" type2="18">
+        <Stats attack="37" defense="93" stamina="140"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="183" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="AZUMARILL" id="184" type1="11" type2="18">
+        <Stats attack="112" defense="152" stamina="200"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="183" parent_id="183" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SUDOWOODO" id="185" type1="6" type2="-1">
+        <Stats attack="167" defense="198" stamina="140"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="3"></Meta>
+        <Evolution family_id="185" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="POLITOED" id="186" type1="11" type2="-1">
+        <Stats attack="174" defense="192" stamina="180"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="60" parent_id="61" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HOPPIP" id="187" type1="12" type2="3">
+        <Stats attack="67" defense="101" stamina="70"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.11999999731779099" capture_candy="3"></Meta>
+        <Evolution family_id="187" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SKIPLOOM" id="188" type1="12" type2="3">
+        <Stats attack="91" defense="127" stamina="110"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="187" parent_id="187" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="JUMPLUFF" id="189" type1="12" type2="3">
+        <Stats attack="118" defense="197" stamina="150"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="187" parent_id="188" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="AIPOM" id="190" type1="1" type2="-1">
+        <Stats attack="136" defense="112" stamina="110"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="190" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SUNKERN" id="191" type1="12" type2="-1">
+        <Stats attack="55" defense="55" stamina="60"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="191" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SUNFLORA" id="192" type1="12" type2="-1">
+        <Stats attack="185" defense="148" stamina="150"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="191" parent_id="191" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="YANMA" id="193" type1="7" type2="3">
+        <Stats attack="154" defense="94" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="193" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WOOPER" id="194" type1="11" type2="5">
+        <Stats attack="75" defense="75" stamina="110"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="194" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="QUAGSIRE" id="195" type1="11" type2="5">
+        <Stats attack="152" defense="152" stamina="190"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="194" parent_id="194" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ESPEON" id="196" type1="14" type2="-1">
+        <Stats attack="261" defense="194" stamina="130"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="133" parent_id="133" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="UMBREON" id="197" type1="17" type2="-1">
+        <Stats attack="126" defense="250" stamina="190"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="133" parent_id="133" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MURKROW" id="198" type1="17" type2="3">
+        <Stats attack="175" defense="87" stamina="120"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="198" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SLOWKING" id="199" type1="11" type2="14">
+        <Stats attack="177" defense="194" stamina="190"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="79" parent_id="79" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MISDREAVUS" id="200" type1="8" type2="-1">
+        <Stats attack="167" defense="167" stamina="120"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="200" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="UNOWN" id="201" type1="14" type2="-1">
+        <Stats attack="136" defense="91" stamina="96"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="201" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="WOBBUFFET" id="202" type1="14" type2="-1">
+        <Stats attack="60" defense="106" stamina="380"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="202" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GIRAFARIG" id="203" type1="1" type2="14">
+        <Stats attack="182" defense="133" stamina="140"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="203" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PINECO" id="204" type1="7" type2="-1">
+        <Stats attack="108" defense="146" stamina="100"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.11999999731779099" capture_candy="3"></Meta>
+        <Evolution family_id="204" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="FORRETRESS" id="205" type1="7" type2="9">
+        <Stats attack="161" defense="242" stamina="150"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="204" parent_id="204" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DUNSPARCE" id="206" type1="1" type2="-1">
+        <Stats attack="131" defense="131" stamina="200"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="206" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GLIGAR" id="207" type1="5" type2="3">
+        <Stats attack="143" defense="204" stamina="130"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="207" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="STEELIX" id="208" type1="9" type2="5">
+        <Stats attack="148" defense="333" stamina="150"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="95" parent_id="95" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SNUBBULL" id="209" type1="18" type2="-1">
+        <Stats attack="137" defense="89" stamina="120"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="209" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="GRANBULL" id="210" type1="18" type2="-1">
+        <Stats attack="212" defense="137" stamina="180"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07999999821186066" capture_candy="5"></Meta>
+        <Evolution family_id="209" parent_id="209" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="QWILFISH" id="211" type1="11" type2="4">
+        <Stats attack="184" defense="148" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07999999821186066" capture_candy="3"></Meta>
+        <Evolution family_id="211" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SCIZOR" id="212" type1="7" type2="9">
+        <Stats attack="236" defense="191" stamina="140"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="123" parent_id="123" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SHUCKLE" id="213" type1="7" type2="6">
+        <Stats attack="17" defense="396" stamina="40"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="213" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HERACROSS" id="214" type1="7" type2="2">
+        <Stats attack="234" defense="189" stamina="160"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="214" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SNEASEL" id="215" type1="17" type2="15">
+        <Stats attack="189" defense="157" stamina="110"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="215" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TEDDIURSA" id="216" type1="1" type2="-1">
+        <Stats attack="142" defense="93" stamina="120"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="216" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="URSARING" id="217" type1="1" type2="-1">
+        <Stats attack="236" defense="144" stamina="180"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="216" parent_id="216" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SLUGMA" id="218" type1="10" type2="-1">
+        <Stats attack="118" defense="71" stamina="80"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="218" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAGCARGO" id="219" type1="10" type2="6">
+        <Stats attack="139" defense="209" stamina="100"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="218" parent_id="218" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SWINUB" id="220" type1="15" type2="5">
+        <Stats attack="90" defense="74" stamina="100"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="220" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PILOSWINE" id="221" type1="15" type2="5">
+        <Stats attack="181" defense="147" stamina="200"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="220" parent_id="220" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CORSOLA" id="222" type1="11" type2="6">
+        <Stats attack="118" defense="156" stamina="110"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.11999999731779099" capture_candy="3"></Meta>
+        <Evolution family_id="222" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="REMORAID" id="223" type1="11" type2="-1">
+        <Stats attack="127" defense="69" stamina="70"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="223" parent_id="0" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="OCTILLERY" id="224" type1="11" type2="-1">
+        <Stats attack="197" defense="141" stamina="150"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="223" parent_id="223" buddy_km="1.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DELIBIRD" id="225" type1="15" type2="3">
+        <Stats attack="128" defense="90" stamina="90"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="225" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MANTINE" id="226" type1="11" type2="3">
+        <Stats attack="148" defense="260" stamina="130"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="226" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SKARMORY" id="227" type1="9" type2="3">
+        <Stats attack="148" defense="260" stamina="130"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.09000000357627869" capture_candy="3"></Meta>
+        <Evolution family_id="227" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HOUNDOUR" id="228" type1="17" type2="10">
+        <Stats attack="152" defense="93" stamina="90"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="228" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HOUNDOOM" id="229" type1="17" type2="10">
+        <Stats attack="224" defense="159" stamina="150"></Stats>
+        <Meta capture_rate="0.15000000596046448" flee_rate="0.05999999865889549" capture_candy="5"></Meta>
+        <Evolution family_id="228" parent_id="228" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="KINGDRA" id="230" type1="11" type2="16">
+        <Stats attack="194" defense="194" stamina="150"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="10"></Meta>
+        <Evolution family_id="116" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PHANPY" id="231" type1="5" type2="-1">
+        <Stats attack="107" defense="107" stamina="180"></Stats>
+        <Meta capture_rate="0.5" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="231" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="DONPHAN" id="232" type1="5" type2="-1">
+        <Stats attack="214" defense="214" stamina="180"></Stats>
+        <Meta capture_rate="0.125" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="231" parent_id="231" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PORYGON" id="233" type1="1" type2="-1">
+        <Stats attack="198" defense="183" stamina="170"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="137" parent_id="137" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="STANTLER" id="234" type1="1" type2="-1">
+        <Stats attack="192" defense="132" stamina="146"></Stats>
+        <Meta capture_rate="0.30000001192092896" flee_rate="0.07999999821186066" capture_candy="3"></Meta>
+        <Evolution family_id="234" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SMEARGLE" id="235" type1="1" type2="-1">
+        <Stats attack="40" defense="88" stamina="110"></Stats>
+        <Meta capture_rate="0.25" flee_rate="0.07000000029802322" capture_candy="3"></Meta>
+        <Evolution family_id="235" parent_id="0" buddy_km="3.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TYROGUE" id="236" type1="2" type2="-1">
+        <Stats attack="64" defense="64" stamina="70"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="236" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HITMONTOP" id="237" type1="2" type2="-1">
+        <Stats attack="173" defense="214" stamina="100"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.05000000074505806" capture_candy="3"></Meta>
+        <Evolution family_id="236" parent_id="236" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SMOOCHUM" id="238" type1="15" type2="14">
+        <Stats attack="153" defense="116" stamina="90"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="124" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ELEKID" id="239" type1="13" type2="-1">
+        <Stats attack="135" defense="110" stamina="90"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="125" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MAGBY" id="240" type1="10" type2="-1">
+        <Stats attack="151" defense="108" stamina="90"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.20000000298023224" capture_candy="3"></Meta>
+        <Evolution family_id="126" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="MILTANK" id="241" type1="1" type2="-1">
+        <Stats attack="157" defense="211" stamina="190"></Stats>
+        <Meta capture_rate="0.20000000298023224" flee_rate="0.07999999821186066" capture_candy="3"></Meta>
+        <Evolution family_id="241" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="BLISSEY" id="242" type1="1" type2="-1">
+        <Stats attack="129" defense="229" stamina="510"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.05000000074505806" capture_candy="5"></Meta>
+        <Evolution family_id="113" parent_id="113" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="RAIKOU" id="243" type1="13" type2="-1">
+        <Stats attack="241" defense="210" stamina="180"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.03999999910593033" capture_candy="3"></Meta>
+        <Evolution family_id="243" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="ENTEI" id="244" type1="10" type2="-1">
+        <Stats attack="235" defense="176" stamina="230"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.03999999910593033" capture_candy="3"></Meta>
+        <Evolution family_id="244" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="SUICUNE" id="245" type1="11" type2="-1">
+        <Stats attack="180" defense="235" stamina="200"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.03999999910593033" capture_candy="3"></Meta>
+        <Evolution family_id="245" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LARVITAR" id="246" type1="6" type2="5">
+        <Stats attack="115" defense="93" stamina="100"></Stats>
+        <Meta capture_rate="0.4000000059604645" flee_rate="0.10000000149011612" capture_candy="3"></Meta>
+        <Evolution family_id="246" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="PUPITAR" id="247" type1="6" type2="5">
+        <Stats attack="155" defense="133" stamina="140"></Stats>
+        <Meta capture_rate="0.10000000149011612" flee_rate="0.07000000029802322" capture_candy="5"></Meta>
+        <Evolution family_id="246" parent_id="246" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="TYRANITAR" id="248" type1="6" type2="17">
+        <Stats attack="251" defense="212" stamina="200"></Stats>
+        <Meta capture_rate="0.05000000074505806" flee_rate="0.03999999910593033" capture_candy="10"></Meta>
+        <Evolution family_id="246" parent_id="247" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="LUGIA" id="249" type1="14" type2="3">
+        <Stats attack="193" defense="323" stamina="212"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.03999999910593033" capture_candy="3"></Meta>
+        <Evolution family_id="249" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="HO" id="250" type1="10" type2="3">
+        <Stats attack="263" defense="301" stamina="212"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.03999999910593033" capture_candy="3"></Meta>
+        <Evolution family_id="250" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+    <Pokemon name="CELEBI" id="251" type1="14" type2="12">
+        <Stats attack="210" defense="210" stamina="200"></Stats>
+        <Meta capture_rate="-1" flee_rate="0.03999999910593033" capture_candy="3"></Meta>
+        <Evolution family_id="251" parent_id="0" buddy_km="5.0"></Evolution>
+    </Pokemon>
+</PokemonGo>
