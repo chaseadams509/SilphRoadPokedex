@@ -28,9 +28,10 @@ import javax.xml.xpath.XPathFactory;
 public class PokedexEntry extends AppCompatActivity {
     private ImageView pokemonGif;
     private TextView pokemonName;
-    private ImageView buddyKm;
+    private TextView buddyKm;
     private ImageView typeOne;
     private ImageView typeTwo;
+    private TextView cpStat;
     private TextView attackStat;
     private TextView defenseStat;
     private TextView staminaStat;
@@ -49,9 +50,10 @@ public class PokedexEntry extends AppCompatActivity {
 
         pokemonGif = (ImageView)this.findViewById(R.id.dex_image);
         pokemonName = (TextView)this.findViewById(R.id.dex_name);
-        buddyKm = (ImageView)this.findViewById(R.id.dex_buddy);
+        buddyKm = (TextView)this.findViewById(R.id.dex_buddy);
         typeOne = (ImageView)this.findViewById(R.id.type1);
         typeTwo = (ImageView)this.findViewById(R.id.type2);
+        cpStat = (TextView)this.findViewById(R.id.dex_maxcp);
         attackStat = (TextView)this.findViewById(R.id.dex_atk);
         defenseStat = (TextView)this.findViewById(R.id.dex_def);
         staminaStat = (TextView)this.findViewById(R.id.dex_sta);
@@ -67,9 +69,19 @@ public class PokedexEntry extends AppCompatActivity {
             Element entry = (Element)pokemon_list.item(0);
 
             pokemonName.setText("#" + id + ": " + getPokemonAttribute(xPath, entry, "@name"));
-            attackStat.setText("ATK: " + getPokemonAttribute(xPath, entry, "Stats/@attack"));
-            defenseStat.setText("DEF: " + getPokemonAttribute(xPath, entry, "Stats/@defense"));
-            staminaStat.setText("STA: " + getPokemonAttribute(xPath, entry, "Stats/@stamina"));
+            pokemonGif.setImageResource(getImageId(id));
+            typeOne.setImageResource(getTypeImage(getPokemonAttribute(xPath,entry,"@type1")));
+            typeTwo.setImageResource(getTypeImage(getPokemonAttribute(xPath,entry,"@type2")));
+            buddyKm.setText("Buddy Candy:\n" + getPokemonAttribute(xPath, entry, "Evolution/@buddy_km"));
+
+            String baseAtk = getPokemonAttribute(xPath, entry, "Stats/@attack");
+            String baseDef = getPokemonAttribute(xPath, entry, "Stats/@defense");
+            String baseSta = getPokemonAttribute(xPath, entry, "Stats/@stamina");
+            int maxCP = (int)Math.floor( ((Double.parseDouble(baseAtk) + 15) * Math.sqrt(Double.parseDouble(baseDef) + 15) * Math.sqrt(Double.parseDouble(baseSta) + 15) * 0.7903001 * 0.7903001) / 10);
+            cpStat.setText("Max CP:\n" + maxCP);
+            attackStat.setText("ATK: " + baseAtk);
+            defenseStat.setText("DEF: " + baseDef);
+            staminaStat.setText("STA: " + baseSta);
         } catch (Exception e) {
 
             pokemonName.setText("#" + id + ": NOT FOUND");
@@ -82,6 +94,32 @@ public class PokedexEntry extends AppCompatActivity {
     public String getPokemonAttribute(XPath xPath, Element pokemon, String query) throws Exception {
         String attrib = xPath.evaluate(query, pokemon);
         return attrib;
+    }
+
+    public int getImageId(int i) {
+        switch (i) {
+            case 1:
+                return R.drawable.pokemon_1;
+            case 2:
+                return R.drawable.pokemon_2;
+            case 3:
+                return R.drawable.pokemon_3;
+            default:
+                return R.drawable.pokemon_1;
+        }
+    }
+
+    public int getTypeImage(String type) {
+        switch (type) {
+            case "12":
+                return R.drawable.type_grass;
+            case "4":
+                return R.drawable.type_poison;
+            case "-1":
+                return R.drawable.type_grass;
+            default:
+                return R.drawable.type_grass;
+        }
     }
 
     @Override

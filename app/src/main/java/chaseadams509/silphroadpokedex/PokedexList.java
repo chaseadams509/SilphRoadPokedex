@@ -34,8 +34,15 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 public class PokedexList extends AppCompatActivity {
-    private boolean iv_calc;
-    private TextView pokedextext;
+    private boolean ivCalc;
+    private Button upArrow;
+    private Button downArrow;
+    private int cur_start;
+    private int maxPokemon;
+    private  static final int max_display = 8;
+    private NodeList pokemon_list;
+    private XPath xPath;
+    //private TextView pokedextext;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -49,20 +56,35 @@ public class PokedexList extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         final Intent get_intent = getIntent();
-        iv_calc = get_intent.getBooleanExtra("iv_calc", false);
+        ivCalc = get_intent.getBooleanExtra("iv_calc", false);
 
-        pokedextext = (TextView) this.findViewById(R.id.PokedexText);
-        if (iv_calc)
-            pokedextext.setText("Select a Pokemon to calculate their Individual Values.");
-        else
-            pokedextext.setText("Select a Pokemon to view.");
+        //pokedextext = (TextView) this.findViewById(R.id.PokedexText);
+        //if (iv_calc)
+            //pokedextext.setText("Select a Pokemon to calculate their Individual Values.");
+        //else
+         //   pokedextext.setText("Select a Pokemon to view.");
+        upArrow = (Button) this.findViewById(R.id.minus_list);
+        upArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                generateListing(cur_start - max_display);
+            }
+        });
+        downArrow = (Button) this.findViewById(R.id.plus_list);
+        downArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                generateListing(cur_start + max_display);
+            }
+        });
+
+
+        XPathFactory factory = XPathFactory.newInstance();
+        xPath = factory.newXPath();
 
 
         InputStream pdata = getResources().openRawResource(R.raw.pokemon_data);
         InputSource psrc = new InputSource(pdata);
-        XPathFactory factory = XPathFactory.newInstance();
-        XPath xPath = factory.newXPath();
-        NodeList pokemon_list;
         try {
             String query = "/PokemonGo/Pokemon";
             pokemon_list = (NodeList) xPath.evaluate(query, psrc, XPathConstants.NODESET);
@@ -74,8 +96,21 @@ public class PokedexList extends AppCompatActivity {
             return;
         }
 
+        maxPokemon = pokemon_list.getLength();
+        cur_start = 0;
+        generateListing(0);
+    }
 
-        for(int i = 0; i < pokemon_list.getLength(); i++) {
+    private void generateListing(int start) {
+        if(start < 0)
+            start = 0;
+        if(start+max_display > maxPokemon)
+            start = maxPokemon - max_display;
+        LinearLayout ll = (LinearLayout) findViewById(R.id.pokelist);
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        ll.removeAllViews();
+
+        for(int i = start; i < start+max_display; i++) {
             Button pokeButton = new Button(this);
             Element pokemon = (Element)pokemon_list.item(i);
             String pokemon_name;
@@ -97,30 +132,29 @@ public class PokedexList extends AppCompatActivity {
                 }
             });
 
-            LinearLayout ll = (LinearLayout) findViewById(R.id.pokelist);
-            LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             ll.addView(pokeButton, lp);
         }
+        cur_start = start;
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
-    public String getPokemonName(XPath xPath, Element pokemon) throws Exception {
+    private String getPokemonName(XPath xPath, Element pokemon) throws Exception {
         String query = "@name";
         String name = xPath.evaluate(query, pokemon);
         return name;
     }
-    public String getPokemonNumber(XPath xPath, Element pokemon) throws Exception {
+    private String getPokemonNumber(XPath xPath, Element pokemon) throws Exception {
         String query = "@id";
         String num = "#" + xPath.evaluate(query, pokemon);
         return num;
     }
-    public void open_entry(View view, int id) {
+    private void open_entry(View view, int id) {
         Intent intent = new Intent(PokedexList.this, PokedexEntry.class);
         intent.putExtra("id", id);
-        intent.putExtra("iv_calc", iv_calc);
+        intent.putExtra("iv_calc", ivCalc);
         startActivity(intent);
     }
 

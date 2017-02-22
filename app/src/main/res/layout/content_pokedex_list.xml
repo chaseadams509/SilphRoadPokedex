@@ -10,28 +10,40 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:weightSum="1.0"
+    android:weightSum="1.1"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="chaseadams509.silphroadpokedex.PokedexList"
     tools:showIn="@layout/activity_pokedex_list">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/PokedexText"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight=".1"
-        android:text="Start Here" />
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight=".9" >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/pokelist"
-            android:orientation="vertical">
-        </LinearLayout>
-    </ScrollView>
+        android:text="Start Here" />-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight=".1"
+        android:id="@+id/minus_list"
+        android:text="Arrow-Up" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/pokelist"
+        android:layout_weight=".8"
+        android:orientation="vertical">
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight=".1"
+        android:id="@+id/plus_list"
+        android:text="Arrow-Down" />
 
 </LinearLayout>
